@@ -39,7 +39,7 @@ main {
 }
 
 #search-box {
-    margin: 3% auto;
+    margin: 42px auto;
     padding: 0 44px;
     height: 44px;
     width: 100%;
@@ -174,14 +174,41 @@ footer {
     display: flex;
     justify-content: flex-start;
     min-width: 30%;
+    order: 1;
+}
+
+#footer-middle {
+    order: 2;
 }
 
 #footer-right {
     display: flex;
     justify-content: flex-end;
     min-width: 30%;
+    order: 3;
 }
 
 #eco-icon {
     height: 14px;
+}
+
+/* Media Queries */
+@media (max-width: 800px) {
+    #footer-middle {
+        width: 100%;
+        order: 0;
+        text-align: center;
+    }
+}
+
+@media (max-width: 520px) {
+    #footer-left {
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    #footer-right {
+        width: 100%;
+        justify-content: space-around;
+    }
 }
