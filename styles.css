@@ -17,7 +17,6 @@ button {
 
 /* General */
 .container {
-    border: solid;
     display: flex;
     flex-direction: column;
     width: 90%;
@@ -30,7 +29,6 @@ main {
     height: 100%;
     align-content: center;
     justify-content: center;
-    border: solid;
 }
 
 #main-logo {
@@ -81,9 +79,57 @@ nav {
     position: absolute;
     top: 0;
     width: 100%;
-    border: solid;
+    padding: 1%;
     display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #222;
+}
 
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.navbar li {
+    margin: auto 8px;
+    align-items: center;
+}
+
+.navbar a {
+    color: #222;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+#navbar-left {
+    width: 50%;
+    display: flex;
+    align-items: baseline;
+}
+
+#navbar-right {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+}
+
+#profile-picture {
+    display: flex;
+    flex: 0 0 0;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 44px;
+    height: 44px;
+}
+
+#profile-picture img {
+    object-fit: contain;
+    object-position: center;
 }
 
 /* Footer */
