@@ -134,9 +134,54 @@ nav {
 
 /* Footer */
 footer {
-    border: solid;
+    background: #f2f2f2;
     position: absolute;
     bottom: 0;
     width: 100%;
+    padding: 1%;
     display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    align-content: center;
+    font-size: 14px;
+    color: rgba(0,0,0,0.54);
+    padding: 6px;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.footer-section li {
+    margin: auto 8px;
+    align-items: center;
+}
+
+.footer-section a {
+    color: rgba(0,0,0,0.54);
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+#footer-left {
+    display: flex;
+    justify-content: flex-start;
+    min-width: 30%;
+}
+
+#footer-right {
+    display: flex;
+    justify-content: flex-end;
+    min-width: 30%;
+}
+
+#eco-icon {
+    height: 14px;
 }
