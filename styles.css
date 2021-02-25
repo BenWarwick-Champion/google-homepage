@@ -40,7 +40,7 @@ main {
 
 #search-box {
     margin: 3% auto;
-    padding: 2% 5%;
+    padding: 0 44px;
     height: 44px;
     width: 100%;
     max-width: 584px;
