@@ -130,6 +130,7 @@ nav {
 #profile-picture img {
     object-fit: contain;
     object-position: center;
+    width: 44px;
 }
 
 /* Footer */
